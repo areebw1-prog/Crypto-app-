@@ -69,7 +69,7 @@ export default function Home() {
         </button>
       </div>
       <div className="coin">
-        {arr ? (
+        {arr.length > 0 ? (
           arr.map((items) => (
             <div key={items.uuid} className="itemList">
               <p>name : {items.name}</p>
