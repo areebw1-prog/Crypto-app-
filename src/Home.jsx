@@ -79,7 +79,7 @@ export default function Home() {
               <p>market-cap :{items.marketCap}</p>
               <p>change: {items.change}</p>
               <p>uuid : {items.uuid}</p>
-              <img src={items.iconUrl} />
+              <img className="coin-logo" src={items.iconUrl} />
             </div>
           ))
         ) : (
