@@ -1,0 +1,174 @@
+/* styles.css */
+
+/* Container Styles */
+.Home {
+  padding: 20px;
+}
+
+/* Button Container Styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Link Styles */
+.link {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Coin List Styles */
+.coin {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.itemList {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.itemList p {
+  margin-bottom: 10px;
+}
+
+.itemList img {
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  margin-left: 500px;
+  color: #007d75;
+}
+/* styles.css */
+
+/* Container for input, button, and links */
+/* styles.css */
+.input12 {
+  margin-bottom: 20px;
+}
+
+.input12 input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input12 button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.link a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.details1 {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.details1 p {
+  margin: 5px 0;
+}
+
+.details1 img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.itemList {
+  background-color: #fdf6e3;
+}
+.Home {
+  background-color: #f4e8ff;
+}
+.logo2 {
+  height: 100px;
+  width: 100px;
+}
+.heading433 {
+  margin-top: -90px;
+  margin-left: 120px;
+}
+.searching {
+  margin-left: 600px;
+  margin-top: 100px;
+}
+.inputing {
+  width: 400px;
+}
+.details1 {
+  margin-left: -200px;
+  width: 500px;
+  background-color: #007d75;
+  color: bisque;
+}
+.head {
+  margin-left: 200px;
+  margin-top: -40px;
+  width: 200px;
+}
+.Home {
+  background-color: #ccc;
+  width: 1500px;
+  height: 1000px;
+}
+@media (max-width: 800px) {
+  .Home {
+    width: 400px;
+    height: 1000px;
+  }
+  .header {
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 100px) {
+  .Home {
+    width: 200px;
+    height: 1000px;
+  }
+  .header {
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+}
