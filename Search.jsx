@@ -14,7 +14,7 @@ export default function search() {
           method: "GET",
           headers: {
             "X-RapidAPI-Key":
-              "92499a197bmsh972c66ee05be7d5p1b39e8jsn790740eff152",
+              "process.env.REACT_APP_RAPIDAPI_KEY",
             "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
           },
         };
